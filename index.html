@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayali İhracat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <h1> <span>Hayali</span>İhracat</h1>
+            <p>Hayalimiz İhracat</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#banner"></a>Anasayfa</li>
+                <li><a href="#product"></a>Ürünler</li>
+                <li><a href="#about-us"></a>Hakkımızda</li>
+                <li><a href="#form"></a>İletişim</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="export" id="banner">
+            <div class="banner">
+                <div class="icon-left"><i class="fas fa-less-than"></i></div>
+                <!-- <img src="./images/banner1.jpg" width="1360" height="670" alt=""> -->
+                <!-- <img class="img" src="./images/banner2.jpg" width="1360" height="670" alt="">
+                <img class="img" src="./images/banner3.jpg" width="1360" height="670" alt=""> -->
+                <div class="icon-right"><i class="fas fa-greater-than"></i></div>
+            </div>
+
+            <p>Hayalimiz <br> Hayaliniz...</p>
+            <button><a href="">Aramıza Katıl</a></button>
+        </section>
+        <section id="product">
+            <h2>Ürünlerimiz</h2>
+            <div class="content1">
+                <div>
+                    <img src="./images/product1.jpg" width="150" height="150" alt="">
+                    <p>Ağaçlıklar</p>
+                </div>
+                <div>
+                    <img src="./images/product2.jpg" width="150" height="150" alt="">
+                    <p>Hava</p>
+                </div>
+                <div>
+                    <img src="./images/product3.jpg" width="150" height="150" alt="">
+                    <p>Su</p>
+                </div>
+
+            </div>
+            <div class="content2">
+                <div>
+                    <img src="./images/product4.jpg" width="150" height="150" alt="">
+                    <p>Ağaç</p>
+                </div>
+                <div>
+                    <img src="./images/prodcut5.jpg" width="150" height="150" alt="">
+                    <p>Gökyüzü</p>
+                </div>
+                <div>
+                    <img src="./images/product6.jpg" width="150" height="150" alt="">
+                    <p>Mutluluklar</p>
+                </div>
+            </div>
+        </section>
+        <section id="about-us">
+            <div class="we">
+                <div class="left-we">
+                    <h2>BİZ KİMİZ?</h2>
+                    <p>Herkesin hayalinde olan, sahil kasabasında bir butik kafe planını yapamamış, eldeki imkanların
+                        sadece hayali ihracat yapmaya el verişli olan insanlarız</p>
+                    <button>Daha fazla bilgi al</button>
+                </div>
+
+                <div class="right-we">
+                    <h2>BİZ NERDEN GELDİK?</h2>
+                    <p><a href="https://earth.google.com/web/">Dünyadan...</a></p>
+                </div>
+
+            </div>
+        </section>
+        <section id="form">
+            <form>
+                <h1>BİZE ULAŞIN :</h1>
+                <div class="form-container">
+                    <div>
+                        <div><label for="name">İsminiz:</label></div>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <div><label for="surname">Soyisminiz:</label></div>
+                        <input type="text" id="surname">
+                    </div>
+                    <div>
+                        <div><label for="mail">Mail:</label></div>
+                        <input type="email" id="mail">
+                    </div>
+
+                    <div>
+                        <div><label for="message">Mesajınız:</label></div>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Bize ne iletmek istersiniz"></textarea>
+                    </div>
+
+                    <button class="submit">Gönder</button>
+                </div>
+
+            </form>
+        </section>
+
+
+    </div>
+    <footer>
+        <h1><span>Hayali</span>İhracat</h1>
+        <p>Hayaliniz hayalimiz katıl aramıza</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
